@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10cm 2cm;
+  border-bottom: 1px solid darkslategray;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.nav-logo img {
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  cursor: pointer;
+  padding: 3px 15px;
+  border: 1px solid black;
+  min-width: 75px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  background: rgb(249, 170, 58);
+  border-radius: 8px;
+}
+
+
+/* .banner {
+  border-bottom: 1px solid black;
+  background-image: url("../assets/gng.jpg");
+  height: 350px;
+  width: 100%;
+  background-position: 0 -10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.img-slide{
+  .greetings{
+    text-align: left;
+    background-color: rgb(198, 197, 197); 
+    padding: 10px;
+  }
+  height: 500px;
+  width: 100%;
+}
+
+.headquarters {
+  padding: 20px 60px 60px;
+  border: 2px solid black;
+  margin-top: 0.5cm;
+  margin-bottom: 0.5cm;
+  text-align: text-top ;
+}
+.headquarters p {
+  margin-top: -90px; /* Menggeser tulisan ke atas */
+}
+
+.hq-item {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.circle p {
+  display: block;
+  margin-top: 170px;
+  font-size: 20px;
+  text-align: center;
+}
+.circlew {
+  height: 150px;
+  width: 150px;
+  border: 1px solid white; /* Mengganti warna border menjadi putih */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+table td {
+  padding: 2px 5px;
+}
+
+.input {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}
+.form-left {
+  
+    
+    margin-right: -10px; /* Menggeser elemen ke kiri */
+  
+}
+.form-right {
+  border: 1px solid black;
+  padding: 20px 150px 20px 10px;
+}
+
+.footer {
+  text-align: right;
+  font-size: small;
+}
+
+#circle {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .nav {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-logo {
+    margin-bottom: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+  }
+}
